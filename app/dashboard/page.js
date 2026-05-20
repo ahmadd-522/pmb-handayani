@@ -5,12 +5,19 @@ import { useRouter } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
 
 const JURUSAN_OPTIONS = [
-  'Teknik Informatika',
-  'Sistem Informasi',
-  'Manajemen',
-  'Akuntansi',
-  'Hukum',
-  'Kedokteran',
+  // S1
+  'S1 - Sistem Komputer',
+  'S1 - Teknik Informatika',
+  'S1 - Sistem Informasi',
+  'S1 - Pendidikan Teknologi Informasi',
+  'S1 - Hukum',
+  'S1 - Kewirausahaan',
+  'S1 - Ilmu Sosial',
+  // S2
+  'S2 - Sistem Komputer',
+  // D3
+  'D3 - Manajemen Informatika',
+  'D3 - Komputerisasi Akuntansi',
 ]
 
 function StatusCard({ status }) {

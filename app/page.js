@@ -48,6 +48,9 @@ export default function LandingPage() {
           <div className="w-24 h-24 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white font-bold text-3xl mx-auto mb-6 border-2 border-white/30">
             UH
           </div>
+          <span className="inline-block bg-white/20 border border-white/30 text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-5">
+            A Technopreneurship Campus
+          </span>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">
             Universitas Handayani
             <span className="block text-emerald-200">Makassar</span>
@@ -56,8 +59,7 @@ export default function LandingPage() {
             Wujudkan Masa Depanmu Bersama Kami
           </p>
           <p className="text-green-100 text-base sm:text-lg max-w-2xl mx-auto mb-10">
-            Bergabunglah dengan ribuan mahasiswa berprestasi di Universitas Handayani Makassar.
-            Raih ilmu, kembangkan potensi, dan bangun karir gemilang bersama kami.
+            Berdiri sejak 1996, Universitas Handayani Makassar hadir sebagai kampus teknologi & kewirausahaan terdepan di Indonesia Timur. Raih ilmu, kembangkan potensi, bangun karir gemilang.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -93,9 +95,9 @@ export default function LandingPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Akademik Berkualitas</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">Kampus Technopreneurship</h3>
               <p className="text-gray-600 leading-relaxed">
-                Program studi terakreditasi dengan kurikulum modern yang relevan dengan kebutuhan industri masa kini dan masa depan.
+                Satu-satunya kampus di Makassar yang menggabungkan pendidikan teknologi informasi dengan jiwa kewirausahaan untuk mencetak inovator masa depan.
               </p>
             </div>
 
@@ -103,12 +105,12 @@ export default function LandingPage() {
             <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-md hover:shadow-lg transition-shadow border border-green-100">
               <div className="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mb-5 shadow-md">
                 <svg className="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-2 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Fasilitas Modern</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">Digital Learning</h3>
               <p className="text-gray-600 leading-relaxed">
-                Kampus dilengkapi laboratorium canggih, perpustakaan digital, ruang kuliah ber-AC, dan berbagai fasilitas penunjang akademik.
+                Dilengkapi e-learning, Google Classroom, perpustakaan digital, SIAKAD, dan repositori institusional untuk pengalaman belajar serba digital.
               </p>
             </div>
 
@@ -116,12 +118,12 @@ export default function LandingPage() {
             <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-md hover:shadow-lg transition-shadow border border-green-100">
               <div className="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mb-5 shadow-md">
                 <svg className="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Karir Terjamin</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">Pelopor di Indonesia Timur</h3>
               <p className="text-gray-600 leading-relaxed">
-                Jaringan alumni luas dan kemitraan dengan ratusan perusahaan terkemuka memastikan lulusan siap memasuki dunia kerja.
+                Pertama menyelenggarakan S2 Sistem Komputer di Indonesia Timur sejak 2013. Terdaftar di Kopertis Wilayah IX sebagai kampus teknologi terpercaya.
               </p>
             </div>
           </div>
@@ -132,10 +134,10 @@ export default function LandingPage() {
       <section className="py-12 px-4 bg-gradient-to-r from-green-600 to-emerald-700 text-white">
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           {[
-            { number: '10.000+', label: 'Mahasiswa Aktif' },
-            { number: '50+', label: 'Program Studi' },
-            { number: '500+', label: 'Dosen Berpengalaman' },
-            { number: '25 Tahun', label: 'Pengalaman' },
+            { number: 'Sejak 1996', label: 'Berdiri di Makassar' },
+            { number: '10+', label: 'Program Studi' },
+            { number: 'S1, S2, D3', label: 'Jenjang Pendidikan' },
+            { number: '#1', label: 'S2 Komputer Indonesia Timur' },
           ].map((stat, i) => (
             <div key={i}>
               <p className="text-3xl font-extrabold text-white">{stat.number}</p>
