@@ -10,7 +10,6 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
-              {/* Logo placeholder */}
               <div className="w-10 h-10 bg-gradient-to-br from-green-600 to-emerald-700 rounded-full flex items-center justify-center text-white font-bold text-sm">
                 UH
               </div>
@@ -18,6 +17,12 @@ export default function LandingPage() {
                 <p className="font-bold text-green-700 text-sm leading-tight">Universitas Handayani</p>
                 <p className="text-xs text-gray-500 leading-tight">Makassar</p>
               </div>
+            </div>
+            <div className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
+              <Link href="/jurusan" className="hover:text-green-700 transition-colors">Jurusan</Link>
+              <Link href="/cara-daftar" className="hover:text-green-700 transition-colors">Cara Daftar</Link>
+              <Link href="/pengumuman" className="hover:text-green-700 transition-colors">Pengumuman</Link>
+              <Link href="/kontak" className="hover:text-green-700 transition-colors">Kontak</Link>
             </div>
             <div className="flex items-center gap-3">
               <Link
@@ -159,17 +164,42 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-gray-300 py-8 px-4 mt-auto">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white font-bold text-xs">
-              UH
+      <footer className="bg-gray-800 text-gray-300 py-12 px-4 mt-auto">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            <div className="md:col-span-2">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white font-bold text-sm">UH</div>
+                <span className="font-bold text-white text-lg">Universitas Handayani</span>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
+                Wujudkan masa depanmu bersama kami. Universitas Handayani Makassar, mencetak generasi unggul Indonesia.
+              </p>
             </div>
-            <span className="font-semibold text-white">Universitas Handayani Makassar</span>
+            <div>
+              <p className="font-semibold text-white mb-3 text-sm">Menu</p>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li><Link href="/jurusan" className="hover:text-green-400 transition-colors">Program Studi</Link></li>
+                <li><Link href="/cara-daftar" className="hover:text-green-400 transition-colors">Cara Daftar</Link></li>
+                <li><Link href="/pengumuman" className="hover:text-green-400 transition-colors">Pengumuman</Link></li>
+                <li><Link href="/kontak" className="hover:text-green-400 transition-colors">Kontak</Link></li>
+              </ul>
+            </div>
+            <div>
+              <p className="font-semibold text-white mb-3 text-sm">Akun</p>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li><Link href="/register" className="hover:text-green-400 transition-colors">Daftar Sekarang</Link></li>
+                <li><Link href="/login" className="hover:text-green-400 transition-colors">Masuk</Link></li>
+                <li><Link href="/dashboard" className="hover:text-green-400 transition-colors">Dashboard</Link></li>
+              </ul>
+            </div>
           </div>
-          <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} Universitas Handayani Makassar. All rights reserved.
-          </p>
+          <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row items-center justify-between gap-3">
+            <p className="text-sm text-gray-400">
+              © {new Date().getFullYear()} Universitas Handayani Makassar. All rights reserved.
+            </p>
+            <p className="text-xs text-gray-500">Jl. Adhyaksa Baru No.1, Panakkukang, Makassar 90231</p>
+          </div>
         </div>
       </footer>
     </div>
