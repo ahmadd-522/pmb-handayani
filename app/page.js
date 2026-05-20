@@ -10,9 +10,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-green-600 to-emerald-700 rounded-full flex items-center justify-center text-white font-bold text-sm">
-                UH
-              </div>
+              <img src="/logo.png" alt="Logo UHM" className="w-10 h-10 object-contain" />
               <div>
                 <p className="font-bold text-green-700 text-sm leading-tight">Universitas Handayani</p>
                 <p className="text-xs text-gray-500 leading-tight">Makassar</p>
@@ -45,9 +43,7 @@ export default function LandingPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-green-600 via-green-700 to-emerald-800 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="w-24 h-24 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white font-bold text-3xl mx-auto mb-6 border-2 border-white/30">
-            UH
-          </div>
+          <img src="/logo.png" alt="Logo UHM" className="w-28 h-28 object-contain mx-auto mb-5 drop-shadow-xl" />
           <span className="inline-block bg-white/20 border border-white/30 text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-5">
             A Technopreneurship Campus
           </span>

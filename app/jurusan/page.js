@@ -137,7 +137,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-9 h-9 bg-gradient-to-br from-green-600 to-emerald-700 rounded-full flex items-center justify-center text-white font-bold text-sm">UH</div>
+            <img src="/logo.png" alt="Logo UHM" className="w-9 h-9 object-contain" />
             <div>
               <p className="font-bold text-green-700 text-sm leading-tight">Universitas Handayani</p>
               <p className="text-xs text-gray-500 leading-tight">Makassar</p>

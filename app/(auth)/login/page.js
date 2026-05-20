@@ -46,9 +46,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         {/* Branding */}
         <div className="text-center mb-8">
-          <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-emerald-700 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4 shadow-lg">
-            UH
-          </div>
+          <img src="/logo.png" alt="Logo UHM" className="w-20 h-20 object-contain mx-auto mb-4 drop-shadow-md" />
           <h1 className="text-2xl font-bold text-gray-800">Universitas Handayani</h1>
           <p className="text-green-600 font-medium">Makassar</p>
           <p className="text-gray-500 text-sm mt-1">Penerimaan Mahasiswa Baru</p>
